@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4651116D1D10E8CB004F8A1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4651116C1D10E8CB004F8A1B /* AppDelegate.swift */; };
+		4651116F1D10E8CB004F8A1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4651116E1D10E8CB004F8A1B /* ViewController.swift */; };
+		465111721D10E8CB004F8A1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 465111701D10E8CB004F8A1B /* Main.storyboard */; };
+		465111741D10E8CB004F8A1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 465111731D10E8CB004F8A1B /* Assets.xcassets */; };
+		465111771D10E8CB004F8A1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 465111751D10E8CB004F8A1B /* LaunchScreen.storyboard */; };
+		465111821D10E8CB004F8A1B /* TroyTTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465111811D10E8CB004F8A1B /* TroyTTTests.swift */; };
+		4651118D1D10E8CB004F8A1B /* TroyTTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4651118C1D10E8CB004F8A1B /* TroyTTUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4651117E1D10E8CB004F8A1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 465111611D10E8CB004F8A1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 465111681D10E8CB004F8A1B;
+			remoteInfo = TroyTT;
+		};
+		465111891D10E8CB004F8A1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 465111611D10E8CB004F8A1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 465111681D10E8CB004F8A1B;
+			remoteInfo = TroyTT;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		465111691D10E8CB004F8A1B /* TroyTT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TroyTT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4651116C1D10E8CB004F8A1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4651116E1D10E8CB004F8A1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		465111711D10E8CB004F8A1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		465111731D10E8CB004F8A1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		465111761D10E8CB004F8A1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		465111781D10E8CB004F8A1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4651117D1D10E8CB004F8A1B /* TroyTTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TroyTTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		465111811D10E8CB004F8A1B /* TroyTTTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TroyTTTests.swift; sourceTree = "<group>"; };
+		465111831D10E8CB004F8A1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		465111881D10E8CB004F8A1B /* TroyTTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TroyTTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4651118C1D10E8CB004F8A1B /* TroyTTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TroyTTUITests.swift; sourceTree = "<group>"; };
+		4651118E1D10E8CB004F8A1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		465111661D10E8CB004F8A1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4651117A1D10E8CB004F8A1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		465111851D10E8CB004F8A1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		465111601D10E8CB004F8A1B = {
+			isa = PBXGroup;
+			children = (
+				4651116B1D10E8CB004F8A1B /* TroyTT */,
+				465111801D10E8CB004F8A1B /* TroyTTTests */,
+				4651118B1D10E8CB004F8A1B /* TroyTTUITests */,
+				4651116A1D10E8CB004F8A1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4651116A1D10E8CB004F8A1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				465111691D10E8CB004F8A1B /* TroyTT.app */,
+				4651117D1D10E8CB004F8A1B /* TroyTTTests.xctest */,
+				465111881D10E8CB004F8A1B /* TroyTTUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4651116B1D10E8CB004F8A1B /* TroyTT */ = {
+			isa = PBXGroup;
+			children = (
+				4651116C1D10E8CB004F8A1B /* AppDelegate.swift */,
+				4651116E1D10E8CB004F8A1B /* ViewController.swift */,
+				465111701D10E8CB004F8A1B /* Main.storyboard */,
+				465111731D10E8CB004F8A1B /* Assets.xcassets */,
+				465111751D10E8CB004F8A1B /* LaunchScreen.storyboard */,
+				465111781D10E8CB004F8A1B /* Info.plist */,
+			);
+			path = TroyTT;
+			sourceTree = "<group>";
+		};
+		465111801D10E8CB004F8A1B /* TroyTTTests */ = {
+			isa = PBXGroup;
+			children = (
+				465111811D10E8CB004F8A1B /* TroyTTTests.swift */,
+				465111831D10E8CB004F8A1B /* Info.plist */,
+			);
+			path = TroyTTTests;
+			sourceTree = "<group>";
+		};
+		4651118B1D10E8CB004F8A1B /* TroyTTUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4651118C1D10E8CB004F8A1B /* TroyTTUITests.swift */,
+				4651118E1D10E8CB004F8A1B /* Info.plist */,
+			);
+			path = TroyTTUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		465111681D10E8CB004F8A1B /* TroyTT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 465111911D10E8CB004F8A1B /* Build configuration list for PBXNativeTarget "TroyTT" */;
+			buildPhases = (
+				465111651D10E8CB004F8A1B /* Sources */,
+				465111661D10E8CB004F8A1B /* Frameworks */,
+				465111671D10E8CB004F8A1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TroyTT;
+			productName = TroyTT;
+			productReference = 465111691D10E8CB004F8A1B /* TroyTT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4651117C1D10E8CB004F8A1B /* TroyTTTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 465111941D10E8CB004F8A1B /* Build configuration list for PBXNativeTarget "TroyTTTests" */;
+			buildPhases = (
+				465111791D10E8CB004F8A1B /* Sources */,
+				4651117A1D10E8CB004F8A1B /* Frameworks */,
+				4651117B1D10E8CB004F8A1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4651117F1D10E8CB004F8A1B /* PBXTargetDependency */,
+			);
+			name = TroyTTTests;
+			productName = TroyTTTests;
+			productReference = 4651117D1D10E8CB004F8A1B /* TroyTTTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		465111871D10E8CB004F8A1B /* TroyTTUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 465111971D10E8CB004F8A1B /* Build configuration list for PBXNativeTarget "TroyTTUITests" */;
+			buildPhases = (
+				465111841D10E8CB004F8A1B /* Sources */,
+				465111851D10E8CB004F8A1B /* Frameworks */,
+				465111861D10E8CB004F8A1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4651118A1D10E8CB004F8A1B /* PBXTargetDependency */,
+			);
+			name = TroyTTUITests;
+			productName = TroyTTUITests;
+			productReference = 465111881D10E8CB004F8A1B /* TroyTTUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		465111611D10E8CB004F8A1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Troy Taylor";
+				TargetAttributes = {
+					465111681D10E8CB004F8A1B = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					4651117C1D10E8CB004F8A1B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 465111681D10E8CB004F8A1B;
+					};
+					465111871D10E8CB004F8A1B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 465111681D10E8CB004F8A1B;
+					};
+				};
+			};
+			buildConfigurationList = 465111641D10E8CB004F8A1B /* Build configuration list for PBXProject "TroyTT" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 465111601D10E8CB004F8A1B;
+			productRefGroup = 4651116A1D10E8CB004F8A1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				465111681D10E8CB004F8A1B /* TroyTT */,
+				4651117C1D10E8CB004F8A1B /* TroyTTTests */,
+				465111871D10E8CB004F8A1B /* TroyTTUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		465111671D10E8CB004F8A1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				465111771D10E8CB004F8A1B /* LaunchScreen.storyboard in Resources */,
+				465111741D10E8CB004F8A1B /* Assets.xcassets in Resources */,
+				465111721D10E8CB004F8A1B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4651117B1D10E8CB004F8A1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		465111861D10E8CB004F8A1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		465111651D10E8CB004F8A1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4651116F1D10E8CB004F8A1B /* ViewController.swift in Sources */,
+				4651116D1D10E8CB004F8A1B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		465111791D10E8CB004F8A1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				465111821D10E8CB004F8A1B /* TroyTTTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		465111841D10E8CB004F8A1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4651118D1D10E8CB004F8A1B /* TroyTTUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4651117F1D10E8CB004F8A1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 465111681D10E8CB004F8A1B /* TroyTT */;
+			targetProxy = 4651117E1D10E8CB004F8A1B /* PBXContainerItemProxy */;
+		};
+		4651118A1D10E8CB004F8A1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 465111681D10E8CB004F8A1B /* TroyTT */;
+			targetProxy = 465111891D10E8CB004F8A1B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		465111701D10E8CB004F8A1B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				465111711D10E8CB004F8A1B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		465111751D10E8CB004F8A1B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				465111761D10E8CB004F8A1B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4651118F1D10E8CB004F8A1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		465111901D10E8CB004F8A1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		465111921D10E8CB004F8A1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = TroyTT/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Troy.Taylor.TroyTT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		465111931D10E8CB004F8A1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = TroyTT/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Troy.Taylor.TroyTT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		465111951D10E8CB004F8A1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TroyTTTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Troy.Taylor.TroyTTTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TroyTT.app/TroyTT";
+			};
+			name = Debug;
+		};
+		465111961D10E8CB004F8A1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TroyTTTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Troy.Taylor.TroyTTTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TroyTT.app/TroyTT";
+			};
+			name = Release;
+		};
+		465111981D10E8CB004F8A1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TroyTTUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Troy.Taylor.TroyTTUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TroyTT;
+			};
+			name = Debug;
+		};
+		465111991D10E8CB004F8A1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TroyTTUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Troy.Taylor.TroyTTUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TroyTT;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		465111641D10E8CB004F8A1B /* Build configuration list for PBXProject "TroyTT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4651118F1D10E8CB004F8A1B /* Debug */,
+				465111901D10E8CB004F8A1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		465111911D10E8CB004F8A1B /* Build configuration list for PBXNativeTarget "TroyTT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				465111921D10E8CB004F8A1B /* Debug */,
+				465111931D10E8CB004F8A1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		465111941D10E8CB004F8A1B /* Build configuration list for PBXNativeTarget "TroyTTTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				465111951D10E8CB004F8A1B /* Debug */,
+				465111961D10E8CB004F8A1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		465111971D10E8CB004F8A1B /* Build configuration list for PBXNativeTarget "TroyTTUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				465111981D10E8CB004F8A1B /* Debug */,
+				465111991D10E8CB004F8A1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 465111611D10E8CB004F8A1B /* Project object */;
+}
